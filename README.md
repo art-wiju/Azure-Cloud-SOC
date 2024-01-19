@@ -59,16 +59,18 @@ Stop Time 1/17/2024, 9:09:27 PM
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Start Time 1/18/2024, 4:17:04 PM
+Stop Time	1/19/2024, 4:17:04 PM
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 
-| Syslog                   | 
-| SecurityAlert            | 
-| SecurityIncident         | 
-| AzureNetworkAnalytics_CL | 
+| SecurityEvent            | 9110
+| Syslog                   | 0
+| SecurityAlert            | 0
+| SecurityIncident         | 0
+| AzureNetworkAnalytics_CL | 0
+
+An important note: The SecurityEvent processes left running are service accounts opening and closing OS processes. These are benign positives, expected and harmless. 
 
 ## Conclusion
 
